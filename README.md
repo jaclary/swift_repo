@@ -1,3 +1,6 @@
 # swift_repo
-## Chapter 1 : Variables
-## Chapter 2 : 
+## Chapter 1 : Basics
+## Chapter 2 : Collections
+## Chapter 3 : Control Flow
+## Chapter 4 : Functions
+

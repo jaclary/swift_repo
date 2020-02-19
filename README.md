@@ -3,4 +3,6 @@
 ## Chapter 2 : Collections
 ## Chapter 3 : Control Flow
 ## Chapter 4 : Functions
+## Chapter 5 : Closures
+## Chapter 6 : Classes + Structs 
 

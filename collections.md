@@ -17,7 +17,7 @@ var myArray4 = [Int]()
 ```
 </details>
 
-### Exercise 4.2
+### Exercise 2.2
 
 Create an array containing the integer values 4, 8, 15, 16, 23, and 42. There are at least 4 ways to do this, as well.
 
@@ -32,7 +32,7 @@ var myArray4 = [4, 8, 15, 16, 23, 42]
 ```
 </details>
 
-### Exercise 4.3
+### Exercise 2.3
 
 Create an array that cannot be modified containing the integer values 4, 8, 15, 16, 23, and 42.
 
@@ -44,7 +44,7 @@ let myImmutableArray = [4, 8, 15, 16, 23, 42]
 ```
 </details>
 
-### Exercise 4.4
+### Exercise 2.4
 
 Add the values 1138, 1337, and 4711 to the end of the following array:
 
@@ -70,7 +70,7 @@ stuff = stuff + [1138, 1337, 4711]
 ```
 </details>
 
-### Exercise 4.5
+### Exercise 2.5
 
 Replace the value 15 with the value 17 in the following array:
 
@@ -88,7 +88,7 @@ numbers[2] = 17
 ```
 </details>
 
-### Exercise 4.6
+### Exercise 2.6
 
 Replace the values 15, 16, and 23 with the values 1, 2, 3, 4, and 5 in the following array:
 
@@ -106,7 +106,7 @@ numbers[2...4] = [1, 2, 3, 4, 5]
 ```
 </details>
 
-### Exercise 4.7
+### Exercise 2.7
 
 Create an array containing 10 sheep "🐑" strings. Then print the length of the array.
 
@@ -122,7 +122,7 @@ print(lotsOfSheep.count)
 ```
 </details>
 
-### Exercise 4.8
+### Exercise 2.8
 
 Write at least one variant of removing the last element in an array, where you don't know the length.
 
@@ -140,7 +140,7 @@ print(electricCars)
 
 ## Set
 
-### Exercise 4.9
+### Exercise 2.9
 
 Given the following sets:
 
@@ -185,7 +185,7 @@ let allAnimals = farmAnimals.union(houseAnimals).union(cityAnimals)
 
 ## Dictionary
 
-### Exercise 4.10
+### Exercise 2.10
 
 Create an empty dictionary with keys of type String and values of type Int and assign it to a variable in as many ways as you can think of (there's at least 4 ways).
 
@@ -200,7 +200,7 @@ let myDictionary4 = [String: Int]()
 ```
 </details>
 
-### Exercise 4.11
+### Exercise 2.11
 
 Create a mutable dictionary named `secretIdentities` where the key value pairs are "Hulk" -> "Bruce Banner", "Batman" -> "Bruce Wayne", and "Superman" -> "Clark Kent".
 
@@ -216,7 +216,7 @@ var secretIdentities = [
 ```
 </details>
 
-### Exercise 4.12
+### Exercise 2.12
 
 Given the dictionary from exercise 4.10, print the secret identity of Batman. Spoiler: It's Bruce Wayne.
 
@@ -234,7 +234,7 @@ print(secretIdentities["Batman"])
 ```
 </details>
 
-### Exercise 4.13
+### Exercise 2.13
 
 Given the dictionary from exercise 4.10, replace the secret identity of the Hulk with "David Banner", which was the Hulk's civilian name on the TV show for some reason. I guess they were not fans of alliteration, but I digress. 
 
@@ -252,7 +252,7 @@ print(secretIdentities["Hulk"])
 ```
 </details>
 
-### Exercise 4.14
+### Exercise 2.14
 
 Given the dictionary from exercise 4.10, iterate (with a for loop) over all the secret identities and print both the values and the keys.
 

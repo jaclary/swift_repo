@@ -1,4 +1,5 @@
 # swift_repo
+Adapted from: https://github.com/bontouch/swift-exercises
 ## Chapter 1 : Basics
 ## Chapter 2 : Collections
 ## Chapter 3 : Control Flow

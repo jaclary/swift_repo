@@ -2,7 +2,7 @@
 
 ## for
 
-### Exercise 5.1
+### Exercise 3.1
 
 Write a `for` loop that prints the values 1 through 5, each on a separate line, without using an array.
 
@@ -16,7 +16,7 @@ for index in 1...5 {
 ```
 </details>
 
-### Exercise 5.2
+### Exercise 3.2
 
 Write a `for` loop that prints the values in array `[1, 2, 3, 4, 5]`, each value on a separate line.
 
@@ -30,7 +30,7 @@ for value in [1, 2, 3, 4, 5] {
 ```
 </details>
 
-### Exercise 5.3
+### Exercise 3.3
 
 Write a `for` loop that, without iterating over the array, prints the values in array `[2, 6, 11, 19, 25]`, each value on a separate line. I.e. use an index.
 
@@ -46,7 +46,7 @@ for index in 0..<values.count {
 ```
 </details>
 
-### Exercise 5.4
+### Exercise 3.4
 
 Write a `for` loop that prints the values in array `[2, 6, 11, 19, 25]`, each value *and its index in the array* on a separate line.
 
@@ -63,7 +63,7 @@ for (index, value) in values.enumerated() {
 
 ## while
 
-### Exercise 5.5
+### Exercise 3.5
 
 Write a `while` loop that increments a counter variable until it reaches 10.
 
@@ -78,7 +78,7 @@ while counter < 10 {
 ```
 </details>
 
-### Exercise 5.6
+### Exercise 3.6
 
 Write a `repeat...while` loop that increments a counter until it reaches 10.
 
@@ -95,7 +95,7 @@ repeat {
 
 ## if
 
-### Exercise 5.7
+### Exercise 3.7
 
 Using `if`, print "It's too hot" if the temperature is 30 degrees or above. Print "It's too cold" if the temperature is less than 0 degrees. Finally print "It's tolerable" for any other temperature.
 
@@ -114,7 +114,7 @@ if temperature >= 30 {
 ```
 </details>
 
-### Exercise 5.8
+### Exercise 3.8
 
 Write a single `if` statement that converts a String to an Int and then checks if that Int is 1337. If it is, print "The value is 1337".
 
@@ -131,7 +131,7 @@ if let value = Int(myString), value == 1337 {
 
 ## Switch
 
-### Exercise 5.9
+### Exercise 3.9
 
 Given the variable `value`:
 
@@ -158,7 +158,7 @@ default:
 ```
 </details>
 
-### Exercise 5.10
+### Exercise 3.10
 
 Given the variable `value`:
 
@@ -183,7 +183,7 @@ default:
 ```
 </details>
 
-### Exercise 5.11
+### Exercise 3.11
 
 Given the variable `animal`:
 
@@ -211,7 +211,7 @@ switch animal {
 ```
 </details>
 
-### Exercise 5.12
+### Exercise 3.12
 
 Given the variable `distance`:
 
@@ -248,7 +248,7 @@ default:
 ```
 </details>
 
-### Exercise 5.13
+### Exercise 3.13
 
 Given the variable `vector3D`:
 
@@ -273,7 +273,7 @@ default:
 ```
 </details>
 
-### Exercise 5.14
+### Exercise 3.14
 
 Given the variable `vector3D`:
 
@@ -300,7 +300,7 @@ default:
 
 ## guard
 
-### Exercise 5.15
+### Exercise 3.15
 
 Rewrite the following function using guard statements. You can use 2 guard statements or 1 compound guard statement. Actually, try both. :-)
 
@@ -359,5 +359,5 @@ Placeholder text.
 ```
 </details>
 
-#  <#Title#>
+
 

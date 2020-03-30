@@ -53,10 +53,6 @@ struct SignUpView: View {
                     if self.showErrorMessage {
                          Text(self.errorMessage)
                     }
-
-                    
-                    
-
                     
                 }
                 .padding()

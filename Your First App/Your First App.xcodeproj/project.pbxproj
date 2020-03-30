@@ -13,6 +13,7 @@
 		A21547832430F73D008983E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A21547822430F73D008983E0 /* Assets.xcassets */; };
 		A21547862430F73D008983E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A21547852430F73D008983E0 /* Preview Assets.xcassets */; };
 		A21547892430F73D008983E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A21547872430F73D008983E0 /* LaunchScreen.storyboard */; };
+		CEED15E72430FB440011D796 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEED15E62430FB440011D796 /* SignUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A21547852430F73D008983E0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A21547882430F73D008983E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A215478A2430F73D008983E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEED15E62430FB440011D796 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		A215477B2430F73C008983E0 /* Your First App */ = {
 			isa = PBXGroup;
 			children = (
+				CEED15E52430FB2D0011D796 /* SignUpPage */,
 				A215477C2430F73C008983E0 /* AppDelegate.swift */,
 				A215477E2430F73C008983E0 /* SceneDelegate.swift */,
 				A21547802430F73C008983E0 /* ContentView.swift */,
@@ -73,6 +76,14 @@
 				A21547852430F73D008983E0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CEED15E52430FB2D0011D796 /* SignUpPage */ = {
+			isa = PBXGroup;
+			children = (
+				CEED15E62430FB440011D796 /* SignUpView.swift */,
+			);
+			path = SignUpPage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEED15E72430FB440011D796 /* SignUpView.swift in Sources */,
 				A215477D2430F73C008983E0 /* AppDelegate.swift in Sources */,
 				A215477F2430F73C008983E0 /* SceneDelegate.swift in Sources */,
 				A21547812430F73C008983E0 /* ContentView.swift in Sources */,

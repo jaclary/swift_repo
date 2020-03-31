@@ -26,6 +26,7 @@
 		A21547852430F73D008983E0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A21547882430F73D008983E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A215478A2430F73D008983E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A28F0C4324334262007C5E65 /* Tutorial.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Tutorial.md; sourceTree = "<group>"; };
 		CEED15E62430FB440011D796 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		CEED15EA24324CFA0011D796 /* SignUpViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,6 +61,7 @@
 		A215477B2430F73C008983E0 /* Your First App */ = {
 			isa = PBXGroup;
 			children = (
+				A28F0C4324334262007C5E65 /* Tutorial.md */,
 				CEED15E52430FB2D0011D796 /* SignUpPage */,
 				A215477C2430F73C008983E0 /* AppDelegate.swift */,
 				A215477E2430F73C008983E0 /* SceneDelegate.swift */,

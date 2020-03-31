@@ -23,8 +23,6 @@ struct SignUpView: View {
 
     var body: some View {
         ZStack {
-            Color.init(.white)
-                .edgesIgnoringSafeArea(.all)
 
             ScrollView(Axis.Set.vertical, showsIndicators: true) {
                 VStack {

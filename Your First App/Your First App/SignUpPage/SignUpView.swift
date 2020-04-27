@@ -5,7 +5,10 @@
 import SwiftUI
 
 struct SignUpView: View {
-
+    var signUpViewModel: SignUpViewModel
+    init(signUpViewModel: SignUpViewModel) {
+        self.signUpViewModel = signUpViewModel
+    }
 
     @State var firstName: String = ""
     @State var lastName: String = ""
@@ -47,6 +50,9 @@ struct SignUpView: View {
                             TextField( "Password", text: self.$password)
                         }
                     }
+                    Button("Submit") {
+                        self.signUpViewModel.saveUserInformation(firstName: self.firstName, lastName: self.lastName, email: self.email, password: self.password, school: self.school)
+                    }
 
                     if self.showErrorMessage {
                          Text(self.errorMessage)
@@ -64,8 +70,8 @@ struct SignUpView: View {
 
 }
 
-struct SignUpView_Previews: PreviewProvider {
-    static var previews: some View {
-        SignUpView()
-    }
-}
+//struct SignUpView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        SignUpView()
+//    }
+//}

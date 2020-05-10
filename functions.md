@@ -19,7 +19,7 @@ printHelloWorld()
 
 ### Exercise 4.2
 
-Write a function `greet` that takes the name of a person (e.g. "Donald Trump") as input and prints a greeting to that person (e.g. "Hello, Donald Trump!").
+Write a function `greet` that takes the name of a person (e.g. "Helen Sloan") as input and prints a greeting to that person (e.g. "Hello, Helen Sloan!").
 
 <details>
 <summary>Solution</summary>
@@ -35,7 +35,7 @@ greet(name: "Batman")
 
 ### Exercise 4.3
 
-Write a function `greeting` that takes the name of a person (e.g. "Donald Trump") as input and returns a greeting string (e.g. "Hello, Donald Trump!") that can be printed.
+Write a function `greeting` that takes the name of a person (e.g. "Helen Sloan") as input and returns a greeting string (e.g. "Hello, Helen Sloan!") that can be printed.
 
 <details>
 <summary>Solution</summary>
@@ -52,7 +52,7 @@ print(greeting(name: "Batman"))
 
 ### Exercise 4.4
 
-Write a function `greet` that takes the first name and last name of a person (e.g. "Donald" and "Trump") as two separate input parameters and prints a greeting to that person (e.g. "Hello, Donald Trump!").
+Write a function `greet` that takes the first name and last name of a person (e.g. "Helen" and "Sloan") as two separate input parameters and prints a greeting to that person (e.g. "Hello, Helen Sloan!").
 
 <details>
 <summary>Solution</summary>
@@ -68,17 +68,17 @@ greet(firstName: "Bruce", lastName: "Wayne")
 
 ### Exercise 4.5
 
-Write a function `split(name: String)` that takes a name (e.g. "Donald Trump") as input and returns the first and the last name separated into a tuple with two elements. To split a string into an array with " " as separator, you can use the following:
+Write a function `split(name: String)` that takes a name (e.g. "Helen Sloan") as input and returns the first and the last name separated into a tuple with two elements. To split a string into an array with " " as separator, you can use the following:
 
 ```Swift
-let name = "Donald Trump"
+let name = "Helen Sloan"
 let names: [String] = name.components(separatedBy: " ")
 ```
 
 The function should be able to handle the following cases without crashing:
 
 ```Swift
-split(name: "Donald Trump")
+split(name: "Helen Sloan")
 split(name: "Batman")
 split(name: "")
 split(name: "Dwayne \"The Rock\" Johnson")
@@ -96,7 +96,7 @@ func split(name: String) -> (firstName: String?, lastName: String?) {
 let names = split(name: "Bruce Wayne")
 print((names.firstName ?? "Unknown") + " " + (names.lastName ?? "Unknown"))
 
-split(name: "Donald Trump")
+split(name: "Helen Sloan")
 split(name: "Batman")
 split(name: "")
 split(name: "Dwayne \"The Rock\" Johnson")
@@ -131,7 +131,7 @@ func whoAmI(name: String = "Bruce Wayne") -> String {
     return "I am \(name == "Bruce Wayne" ? "" : "not ")Batman"
 }
 
-print(whoAmI(name: "Donald Trump"))
+print(whoAmI(name: "Helen Sloan"))
 print(whoAmI())
 ```
 </details>
